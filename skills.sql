@@ -49,7 +49,7 @@ WHERE discontinued is NULL;
 SELECT * FROM Models 
 ORDER BY name 
 LIMIT 11 
-OFFSET 14; -- This orders the tables before outputting of rows 15 -25
+OFFSET 14; -- This orders the rows alphabetically before outputting of rows 15 -25
 
 SELECT * 
 FROM Models 
